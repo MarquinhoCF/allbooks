@@ -152,13 +152,13 @@ git pull origin main
 
 ## Criando uma branch
 
-1) Verificar branchs atuais:
+1. Verificar branchs atuais:
 
 ```
 git branch
 ```
 
-2) Criando uma nova branch a partir da branch atual e trocando para ela:
+2. Criando uma nova branch a partir da branch atual e trocando para ela:
 
 ```
 git checkout -b testes
@@ -166,33 +166,33 @@ git checkout -b testes
 
 ## Como fazer um merge
 
-1) Verificar a branch em que você esta:
+1. Verificar a branch em que você esta:
 
 ```
 git branch
 ```
 
-2) Trocar para a branch de destino:
+2. Trocar para a branch de destino:
 
 ```
 git checkout [NOME_DA_BRANCH]
 ```
 
-3) Realizando a mesclagem
+3. Realizando a mesclagem
 
 ```
 git merge testes
 ```
 
-4) Boa prática: Excluir a branch que não será mais atualizada:
+4. Boa prática: Excluir a branch que não será mais atualizada:
 
-4.1) Excluir localmente:
+4.1. Excluir localmente:
 
 ```
 git branch -D testes
 ```
 
-4.2) Excluir remotamente:
+4.2. Excluir remotamente:
 
 ```
 git push origin testes --delete
