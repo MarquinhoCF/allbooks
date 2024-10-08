@@ -141,3 +141,11 @@ git log
 ```
 git push origin main
 ```
+
+## Como atualizar o repositório local
+
+Utilize o comando "git pull" e especifique o o repositório (origin) e a branch (main):
+
+```
+git pull origin main
+```
