@@ -197,3 +197,25 @@ git branch -D testes
 ```
 git push origin testes --delete
 ```
+
+## Como criar tags
+
+Para criar uma nova tag, por exemplo para a versão 1.4 do seu software, você pode rodar o comando:
+
+```
+git tag -a v1.4 -m “Versão 1.4”
+```
+
+Nesse comando, com a tag -a você define a versão, e com a tag -m você especifica uma mensagem para essa tag.
+
+Normalmente, você precisa enviar explicitamente as tags para o servidor remoto. Para isso execute o comando:`
+
+```
+git push origin v1.4
+```
+
+Para listar todas as tags do seu repositório, você pode usar o comando:
+
+```
+git tag
+```
