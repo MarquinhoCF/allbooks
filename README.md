@@ -163,3 +163,37 @@ git branch
 ```
 git checkout -b testes
 ```
+
+## Como fazer um merge
+
+1) Verificar a branch em que você esta:
+
+```
+git branch
+```
+
+2) Trocar para a branch de destino:
+
+```
+git checkout [NOME_DA_BRANCH]
+```
+
+3) Realizando a mesclagem
+
+```
+git merge testes
+```
+
+4) Boa prática: Excluir a branch que não será mais atualizada:
+
+4.1) Excluir localmente:
+
+```
+git branch -D testes
+```
+
+4.2) Excluir remotamente:
+
+```
+git push origin testes --delete
+```
