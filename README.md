@@ -149,3 +149,17 @@ Utilize o comando "git pull" e especifique o o repositório (origin) e a branch 
 ```
 git pull origin main
 ```
+
+## Criando uma branch
+
+1) Verificar branchs atuais:
+
+```
+git branch
+```
+
+2) Criando uma nova branch a partir da branch atual e trocando para ela:
+
+```
+git checkout -b testes
+```
