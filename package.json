@@ -16,6 +16,6 @@
     "jest": "^30.0.3",
     "json-server": "^1.0.0-beta.3",
     "json-server-api": "file:",
-    "jsonwebtoken": "^9.0.2"
+    "jsonwebtoken": "^9.0.3"
   }
 }
