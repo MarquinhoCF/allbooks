@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^2.3.0",
-    "jest": "^30.0.3",
+    "jest": "^30.5.2",
     "json-server": "^1.0.0-beta.15",
     "json-server-api": "file:",
     "jsonwebtoken": "^9.0.3"
