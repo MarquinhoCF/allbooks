@@ -14,7 +14,7 @@
   "dependencies": {
     "body-parser": "^2.2.1",
     "jest": "^30.0.3",
-    "json-server": "^1.0.0-beta.3",
+    "json-server": "^1.0.0-beta.15",
     "json-server-api": "file:",
     "jsonwebtoken": "^9.0.2"
   }
